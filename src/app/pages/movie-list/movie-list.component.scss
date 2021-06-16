@@ -1,0 +1,78 @@
+mat-card-content {
+  min-width: 800px;
+}
+
+.list-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0;
+}
+
+.table-content {
+  white-space: nowrap;
+  overflow-x: auto;
+
+  .table {
+    td {
+      min-height: 99px;
+      padding: 6px;
+    }
+
+    i {
+      border-radius: 4px;
+    }
+
+    .image > img {
+      width: 60px;
+      height: 80px;
+      border-radius: 4px;
+      object-fit: cover;
+      object-position: center center;
+    }
+
+    .all-descriptions-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      * {
+        padding: 0;
+        margin: 0;
+      }
+
+      .description {
+        text-decoration: none;
+        font-style: italic;
+
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        max-width: calc(100vw - 460px);
+        overflow: hidden;
+      }
+
+      .info {
+        color: #0000008A;
+      }
+    }
+
+    .edit i {
+      color: #d9cd26;
+    }
+
+    .delete i {
+      color: #e35e6b;
+    }
+
+    .delete, .edit {
+      text-align: center;
+      vertical-align: middle;
+    }
+  }
+}
+
+.title-empty-list {
+  font-size: 1.3rem;
+  font-weight: 300;
+  line-height: 1.1;
+}

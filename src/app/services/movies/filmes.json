@@ -1,0 +1,31 @@
+{
+  "movies": [
+    {
+      "id": 1623822343696,
+      "name": "Invocação do Mal 3: A Ordem do Demônio",
+      "year": "2021",
+      "director": "Michael Chaves",
+      "genre": "Terror/Suspense",
+      "description": "O casal Ed e Lorraine Warren investigam um assassino que alega ter sido possuído por um demônio.",
+      "poster": "/assets/img/movie1.jpg"
+    },
+    {
+      "id": 1623822343697,
+      "name": "Cruella",
+      "year": "2021",
+      "director": "Craig Gillespie",
+      "genre": "Crime/Comédia",
+      "description": "Inteligente, criativa e determinada, Estella quer fazer um nome para si através de seus designs e acaba chamando a atenção da Baronesa Von Hellman. Entretanto, o relacionamento delas desencadeia um curso de eventos e revelações que fazem com que Estella abrace seu lado rebelde e se torne a Cruella, uma pessoa má, elegante e voltada para a vingança.",
+      "poster": "/assets/img/movie2.jpg"
+    },
+    {
+      "id": 1623822343698,
+      "name": "Spirit: O Indomável",
+      "year": "2021",
+      "director": "Elaine Bogan",
+      "genre": "Aventura/Infantil",
+      "description": "Lucky Prescott nunca conheceu a sua mãe, Milagro Navarro, uma destemida montadora de cavalos de Miradero, uma pequena cidade perto da fronteira. Tal como a sua mãe, Lucky nunca foi propriamente fã de regras e restrições, o que sempre causou à sua Tia Cora algumas dores de cabeça.",
+      "poster": "/assets/img/movie3.jpg"
+    }
+  ]
+}
